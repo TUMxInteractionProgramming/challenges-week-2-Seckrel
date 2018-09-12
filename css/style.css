@@ -15,21 +15,20 @@
 
 * {
             /* #2 #font #faces */
-            font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 	margin:0;padding: 0;
-        }
+}
 
 
 body {
             /* #2 #colorful #background */
-            background-color: #F5F5F5;
-	
-        }
+      background-color: #F5F5F5;
+}
 /* --App bar-- */
 h1 {
             /* #2 #colourful #app-bar */
-            background-color: #3F51B5;
-            color: white;
+   background-color: #3F51B5;
+   color: white;
 	border-style: none;
 	
   }
@@ -40,8 +39,8 @@ ul{
 	list-style-type: none;
 	background-color: white;
 	margin: 5px 0px 0px 0px;
-	
-	}
+}
+/*channel list*/
 li{
 	text-align: left;
 	padding: 16px;
@@ -51,9 +50,14 @@ li{
 	border-top-style: none;
 	
 }
+/*Image beside channel list*/
 li h2 button img{
 	vertical-align: middle;
 	vertical-align: 4px;
+}
+div.c{
+	background-color: white;
+		
 }
 .channel2class{
 	color: #3F51B5;
@@ -64,11 +68,9 @@ li h2 button img{
  /*styles for channel area*/
 h2 {
 	/* #2 #colorful #channelandchat */
-	
 	font-size: 22px;
 }
 /*--Tab bar button--*/
-
 .btn-group button{
 	background-color: white;
 	float: left;
@@ -76,21 +78,22 @@ h2 {
 	display: table;
 	border-right: none;
 	border-style: none;
-	
-}
+	}
+/*to create gap between img and text*/
 .btn-group br{
 	margin: 2px auto;
 }
-
+/*tab bar button hover sitution*/
 .btn-group button:hover{
 	background-color: whitesmoke;
 	border-style: none;
 }
+/*tab bar button active sitution*/
 .btn-group button:active{
 	color: #3F51B5;
 	border-bottom: 4px solid #3F51B5; 
 }
-
+/*list of button*/
 #new{
 	font-size: 13px;
 	height: 72px;
@@ -100,74 +103,62 @@ h2 {
 	border-bottom: 4px solid #3F51B5;
 }
 
-
 #trending{
-		font-size: 13px;
+	font-size: 13px;
 	height: 72px;
 	padding: 16px;
 	width: calc(100%/3);
 }
 #favorites{
-		font-size: 13px;
+	font-size: 13px;
 	height: 72px;
 	padding: 16px;
 	width: calc(100%/3);
 }
-
+/*tab bar of current channel*/
 #channel2{
 	margin: 65px 0px 20px 0px;
 	padding: 10px 0px 5px 10px;
 }
-
-div.c{
-			background-color: white;
-		
-		}
-
- button {
+/*for all the button in the website*/
+button {
             /* #2 #colourful #plusfive */
-            background-color: white;
-            color: black;
+    background-color: white;
+    color: black;
             /* #2 #font capital #letters */
-            text-transform: uppercase;
+    text-transform: uppercase;
         }
 
-   
-       
-/*+5 button only*/
-button.a{
-			background-color: #CDDC39;
-			color: black;
-			border-style: outset;
-	
-
-		}
-section{
+  /*Metadata and message*/ 
+ section{
 	margin-bottom: 8px;
 	font-size: medium;
 	margin-left: 2.5%;
 	text-align: left;
 }
+/*Align right .own metadata and message*/
 .own{
 	margin-left: 15%;
-	
 	margin-right: 0;
-	
 	text-align: left;
 }
  h3 {
 /* #2 #font #metadata is now medium */
  font-size: medium;
+}	
 
-     }	
 strong {
             /* #2 #font #locations need an extra element, we'll use strong for w3w locations */
-            text-transform: uppercase;
+     text-transform: uppercase;
         }
-  
+/*+5 button only*/
+button.a{
+	background-color: #CDDC39;
+	color: black;
+	border-style: outset;
+	}
 
-
-
+/*Message*/
  div.a{
 	background-color: white;
 	width: 80%;
@@ -178,12 +169,6 @@ strong {
 	
 }
 
-
-.firstMessage{
-	
-}       
-        
-/*--Message--*/
 
  	
 		
