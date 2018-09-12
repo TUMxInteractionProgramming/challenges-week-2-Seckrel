@@ -168,6 +168,11 @@ button.a{
 	 margin: 8px;
 	
 }
+/*LINE*/
+a{
+	/*no underline in links*/
+	 text-decoration: none;
+}
 
 
  	
